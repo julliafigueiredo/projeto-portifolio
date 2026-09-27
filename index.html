@@ -7,27 +7,238 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><span class="material-symbols-outlined">home</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">network_intelligence</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">school</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">folder_code</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">dark_mode</span></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><span class="material-symbols-outlined">dark_mode</span></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Em breve..</h1>
+        <section id="ficha">
+            <img src="imagens/perfil.jpeg" alt="Julia Figueiredo" class="foto">
+            <h1>Julia Figueiredo</h1>
+            <p>
+            Sou desenvolvedora em formação (Análise e Desenvolvimento de Sistemas) em transição de carreira para tecnologia, com seis anos de experiência em gestão de negócio próprio, lidando diretamente com o público.
+            </p>
+            <p>Atualmente, foco meus estudos na prática de programação e na construção de projetos que unem lógica e aplicabilidade de negócio.
+            </p>
+
+            <div id="social">
+                <a href="https://www.linkedin.com/in/julia-figueiredo-719jf/" target="_blank" rel="nofolow"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/julliafigueiredo" target="_blank" rel="nofolow"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:juliafigueiredo719@gmail.com" target="_blank" rel="nofolow"><i class="fa-regular fa-envelope"></i></a>
+                 <a href="https://www.instagram.com/jullia.figueiredo?stkn=MTlnejhscTRwdXduag==" target="_blank" rel="nofolow"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+
+        <section id="detalhes">
+            <article id="video">
+                <h2><i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h2>
+                <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z52M4sZk_Fg?si=kyCK_TySgQOIHVk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article> <!--Fim article#video-->
+
+            <article id="skills">
+                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+
+                <div id="skill-container">
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-code"></i> HTML5
+                            </span>
+                            <span class="porcent">
+                                75%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill HTML5-->
+
+                        <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-code"></i> CSS3
+                            </span>
+                            <span class="porcent">
+                                75%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill CSS3-->
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-code"></i> JavaScript
+                            </span>
+                            <span class="porcent">
+                                45%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill JavaScript-->
+
+                    
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-code"></i> Python
+                            </span>
+                            <span class="porcent">
+                                30%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill Python-->
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-person-rays"></i> Comunicação
+                            </span>
+                            <span class="porcent">
+                                85%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill Comunicação-->
+
+                    
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-person-rays"></i> Trabalho em equipe
+                            </span>
+                            <span class="porcent">
+                                80%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill Trabalho em equipe-->
+
+                    
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-person-rays"></i> Adaptabilidade
+                            </span>
+                            <span class="porcent">
+                                85%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill Adaptabilidade-->
+
+                    
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                  <i class="fa-solid fa-person-rays"></i> Liderança
+                            </span>
+                            <span class="porcent">
+                                75%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <!--Fim da Skill Liderança-->
+                </div>
+            </article> <!--Fim article#skills-->
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2026 - 2028</p>
+                        <h3 class="instituicao">Doctum</h3>
+                        <p class="titulacao">Análise e Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
+            </article> <!--Fim article#formacao-->
+
+            <article id="projetos">
+                <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto"> <!--Projeto 01-->
+                        <a href="http://julliafigueiredo.github.io/projeto-cordel01/" target="_blank" rel="noopener noreferrer">
+                        <img src="imagens/projeto-cordel.png" alt="Projeto cordel" class="foto"></a>
+                        <div class="info">
+                            <p class="periodo">2026</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais..</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit doloremque eligendi! Quidem eligendi error vitae nemo veniam quisquam quam similique reprehenderit enim natus. Itaque dolorem consectetur non maiores quo?</p>
+                            </details>
+                        </div>
+                    </div> <!-- Fim do Projeto 01-->
+                    <div class="projeto"> <!--Projeto 02-->
+                        <a href="http://julliafigueiredo.github.io/projeto-android/" target="_blank" rel="noopener noreferrer">
+                        <img src="imagens/projeto-android.png" alt="Projeto android" class="foto"></a>
+                        <div class="info">
+                            <p class="periodo">2026</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais..</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit doloremque eligendi! Quidem eligendi error vitae nemo veniam quisquam quam similique reprehenderit enim natus. Itaque dolorem consectetur non maiores quo?</p>
+                            </details>
+                        </div>
+                    </div> <!-- Fim do Projeto 02-->
+                    <div class="projeto"> <!--Projeto 03-->
+                        <a href="https://julliafigueiredo.github.io/projeto-login/" target="_blank" rel="noopener noreferrer">
+                        <img src="imagens/projeto-login.png" alt="Projeto login" class="foto"></a>
+                        <div class="info">
+                            <p class="periodo">2026</p>
+                            <h3 class="titulo">Projeto Login</h3>
+                            <p>Desenvolvido para praticar estruturação de formulários e redirecionamento dinâmico para uma calculadora integrada.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais..</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit doloremque eligendi! Quidem eligendi error vitae nemo veniam quisquam quam similique reprehenderit enim natus. Itaque dolorem consectetur non maiores quo?</p>
+                            </details>
+                        </div>
+                    </div> <!-- Fim do Projeto 03-->
+                </div>
+            </article> <!--Fim article#projetos-->
+
+        </sectione>
     </main>
 
     <footer>
-
+        Portifólio desenvolvido por <b>Julia Figueiredo</b> no <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofolow">Curso em Vídeo</a>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
